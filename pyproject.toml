@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "algolab-local"
+version = "0.1.0"
+description = "Local LeetCode-style practice workspace for AI coding agents."
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+algolab = "algolab.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["algolab*"]
+
+[tool.setuptools.package-data]
+"algolab.templates" = [
+  "agent/*.tpl",
+  "skill/algolab/SKILL.md",
+  "skill/algolab/references/*.md",
+  "problem/c/*.tpl",
+  "problem/cpp/*.tpl",
+  "problem/java/*.tpl",
+  "problem/go/*.tpl",
+  "problem/common/*.tpl",
+  "problem/common/tests/*.tpl",
+  "problem/common/records/*.tpl",
+  "problem/python/*.tpl",
+  "problem/rust/*.tpl",
+]

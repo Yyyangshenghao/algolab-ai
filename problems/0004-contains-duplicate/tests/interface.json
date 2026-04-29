@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "entrypoint": "containsDuplicate",
+  "arguments": [
+    {
+      "name": "nums",
+      "type": "list<int>"
+    }
+  ],
+  "returns": {
+    "type": "bool"
+  },
+  "type_system": "algolab-v1"
+}

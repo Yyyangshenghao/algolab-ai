@@ -1,0 +1,13 @@
+{
+  "id": "0004",
+  "slug": "0004-contains-duplicate",
+  "base_slug": "contains-duplicate",
+  "title": "存在重复元素",
+  "difficulty": "easy",
+  "topic": "数组",
+  "default_solution_language": "java",
+  "supported_solution_languages": ["c", "cpp", "java", "go", "python", "rust"],
+  "locale": "zh-CN",
+  "created_at": "2026-04-29T06:52:26Z",
+  "status": "draft"
+}

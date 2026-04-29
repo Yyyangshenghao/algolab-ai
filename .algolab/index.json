@@ -1,0 +1,30 @@
+{
+  "current_problem_id": "0004",
+  "current_problem_path": "problems/0004-contains-duplicate",
+  "last_problem_id": "0004",
+  "max_id": 4,
+  "problems": [
+    {
+      "base_slug": "contains-duplicate",
+      "created_at": "2026-04-29T06:52:26Z",
+      "default_solution_language": "java",
+      "difficulty": "easy",
+      "id": "0004",
+      "locale": "zh-CN",
+      "path": "problems/0004-contains-duplicate",
+      "slug": "0004-contains-duplicate",
+      "status": "draft",
+      "supported_solution_languages": [
+        "c",
+        "cpp",
+        "java",
+        "go",
+        "python",
+        "rust"
+      ],
+      "title": "存在重复元素",
+      "topic": "数组"
+    }
+  ],
+  "version": 1
+}

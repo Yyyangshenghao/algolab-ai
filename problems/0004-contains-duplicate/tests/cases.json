@@ -1,0 +1,93 @@
+{
+  "version": 1,
+  "cases": [
+    {
+      "name": "example-true",
+      "input": {
+        "args": [
+          [1, 2, 3, 1]
+        ]
+      },
+      "expected": true,
+      "compare": "exact",
+      "tags": ["example"]
+    },
+    {
+      "name": "example-false",
+      "input": {
+        "args": [
+          [1, 2, 3, 4]
+        ]
+      },
+      "expected": false,
+      "compare": "exact",
+      "tags": ["example"]
+    },
+    {
+      "name": "all-identical",
+      "input": {
+        "args": [
+          [2, 2, 2, 2, 2]
+        ]
+      },
+      "expected": true,
+      "compare": "exact",
+      "tags": ["boundary"]
+    },
+    {
+      "name": "single-element",
+      "input": {
+        "args": [
+          [42]
+        ]
+      },
+      "expected": false,
+      "compare": "exact",
+      "tags": ["boundary"]
+    },
+    {
+      "name": "negative-values",
+      "input": {
+        "args": [
+          [-1, -2, -3, -1]
+        ]
+      },
+      "expected": true,
+      "compare": "exact",
+      "tags": ["edge"]
+    },
+    {
+      "name": "mixed-within-range",
+      "input": {
+        "args": [
+          [3, 1, -1, 0, 5, 9, -7, 3]
+        ]
+      },
+      "expected": true,
+      "compare": "exact",
+      "tags": ["example"]
+    },
+    {
+      "name": "no-duplicates-even-length",
+      "input": {
+        "args": [
+          [10, 20, 30, 40, 50, 60]
+        ]
+      },
+      "expected": false,
+      "compare": "exact",
+      "tags": ["boundary"]
+    },
+    {
+      "name": "no-duplicates-odd-length",
+      "input": {
+        "args": [
+          [7, 3, 9, 2, 5]
+        ]
+      },
+      "expected": false,
+      "compare": "exact",
+      "tags": ["boundary"]
+    }
+  ]
+}

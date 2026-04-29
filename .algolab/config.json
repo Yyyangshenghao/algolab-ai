@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "default_language": "python",
+  "default_solution_language": "python",
+  "supported_solution_languages": ["c", "cpp", "java", "go", "python", "rust"],
+  "runner_languages": ["python", "java"],
+  "runner_dir": "algolab/runners",
+  "test_commands_file": "current/TESTS.md",
+  "index_file": ".algolab/index.json",
+  "current_link": "current",
+  "problems_dir": "problems",
+  "records_dir": "records",
+  "i18n": {
+    "ui_locale": "zh-CN",
+    "problem_locale": "zh-CN",
+    "fallback_locale": "en-US",
+    "supported_locales": ["zh-CN", "en-US"]
+  }
+}
